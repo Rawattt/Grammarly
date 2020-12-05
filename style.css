@@ -1,0 +1,54 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 80vh;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  background-color: red;
+}
+
+.hide {
+  display: none;
+}
+
+.output {
+  max-width: 100%;
+  min-width: 400px;
+  width: 80%;
+  margin-top: 1rem;
+  padding: 1rem;
+  min-height: 40vh;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  line-height: 3rem;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  border: none;
+  background-color: rgb(182, 0, 0);
+  border-radius: 3px;
+  text-align: center;
+  padding: 0 1rem;
+  height: 2.5rem;
+}
+select option {
+  background: white;
+}
+select:hover {
+  background-color: rgb(143, 0, 0);
+}
+select:focus {
+  border: none;
+}
