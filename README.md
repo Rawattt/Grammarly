@@ -1,6 +1,5 @@
 # Grammarly
 A basic app that can be used to check spelling mistakes and grammar errors.
-It is hosted on heroku: https://basic-grammarly.herokuapp.com/
 
 ## How to use:
 Generate an api key from https://textgears.com/signup?shutupandgiveme=thekey
